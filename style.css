@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+        background: url(images/360_F_35631.avif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:100%;
+        height:100%;
+        
+        /* background: linear-gradient(90deg, rgb(120, 148, 249) 0%,rgb(146, 233, 224) 60%); */
+}
+#display{
+    width:500px;
+    height:100px;
+    position: absolute;
+    bottom:10%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    color: black;
+    padding:30px 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.msg{
+  animation:  0.5s msg linear;
+  transition: 0.2s linear 1s; 
+
+}
+
+
+
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+    height:100vh;
+}
+.card-body{
+    background: -webkit-repeating-linear-gradient(rgb(165, 161, 153),rgb(107, 53, 53),rgb(58, 114, 58));
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width:50%;
+    
+}
+
+.card-body h1{
+    margin-bottom :30px;
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.card-button button{
+    color:rgb(154, 151, 151);
+    padding: 20px 40px;
+    border :0;
+    font-size: 18px;
+    font-weight: bold;
+    margin : 10px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+button#decre{
+    background-color: rgb(15, 10, 97);
+}
+
+button#decre:hover{
+    background-color: bisque;
+    color:rgb(51, 91, 130);
+}
+
+button#reset{
+    background-color: rgb(214, 219, 217);
+    color: rgb(21, 21, 21);
+    
+}
+button#reset:hover{
+    background-color: rgb(240, 235, 230);
+    color:rgb(129, 19, 19);
+}
+
+button#incre{
+    background-color: rgb(12, 31, 3);
+}
+button#incre:hover{
+    background-color: rgb(36, 57, 112);
+    color:black;
+}
